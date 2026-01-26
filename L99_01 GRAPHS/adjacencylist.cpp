@@ -42,6 +42,6 @@ int main(){
         g.addEdge(u,v,0);
     }
     g.printAdjList();
-
+    cout<<endl;
     
 }
