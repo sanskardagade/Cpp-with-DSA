@@ -17,6 +17,5 @@ int main(){
 
     cout<<"The front element of queue is "<<q.front()<<endl;
 
-    cout<<"The front element of queue is "<<q.front()<<endl;
 
 }
