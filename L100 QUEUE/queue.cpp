@@ -9,6 +9,7 @@ int main(){
     q.push(15);
     q.push(13);
     q.push(15);
+    q.push;
     cout<<"Size of queue : "<<q.size()<<endl;
     q.pop();
     cout<<"Size of queue : "<<q.size()<<endl;
