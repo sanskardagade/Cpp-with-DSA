@@ -8,6 +8,9 @@ int main() {
     q.push(5);
     q.push(1);
     q.push(7);
+    q.push(5);
+    q.push(1);
+    q.push(7);
 
     cout << "Front element: " << q.front() << endl; // 5
     cout << "Back element: " << q.back() << endl;   // 7
