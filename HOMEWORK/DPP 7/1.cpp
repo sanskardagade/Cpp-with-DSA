@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
+    int n;//input
     cout<<"Enter the lines :";
     cin>>n;
     for(int i=1;i<=n;i++){
