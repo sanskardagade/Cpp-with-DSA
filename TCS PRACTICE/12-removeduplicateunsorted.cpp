@@ -22,7 +22,7 @@ int removeDuplicates(vector<int> &nums) {
 
 int main() {
     int n;
-    cin >> n;
+    cin >> n; 
 
     vector<int> nums(n);
 
