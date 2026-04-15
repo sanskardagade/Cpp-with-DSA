@@ -24,5 +24,4 @@ int main() {
 
     cout << fixed << setprecision(2) << result;
 
-    return 0;
 }
