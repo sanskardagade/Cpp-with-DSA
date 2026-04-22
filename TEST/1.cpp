@@ -10,7 +10,6 @@ public:
 
         while(curr) {
 
-            // duplicate found
             if(curr->next && curr->val == curr->next->val) {
 
                 int val = curr->val;
