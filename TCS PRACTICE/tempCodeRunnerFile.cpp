@@ -1,30 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void Frequency(vector<int>& arr,int n){
-    map<int,int>m;
-    for(int i = 0; i < n; i++) {
-        m[arr[i]]++;
-    }
-    for(map<int,int>::iterator it=m.begin();it!=m.end();it++){
-        cout<<it->first<<" "<<it->second<<endl;
+void symmetric(vector<pair<int,int>>& arr){
+    int n = arr.size();
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if((arr[i].first == arr[j].second)&&(arr[i].second == arr[j].first)){
+                cout<<"("<<arr[i].first<<","<<arr[j].second<<")";
+            }
+        }
     }
 }
-
-int main() {
+int main(){
     int n;
-    cin >> n;
-
-    vector<int> arr(n);  // vector instead of array
-
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i];
+    cin>>n;
+    vector<pair<int,int>>arr(n);
+    for(int i=0;i<n;i++){
+        cin>>arr[i].first>>arr[i].second;
     }
-
-    Frequency(arr, n);
-
-    return 0;
+    symmetric(arr);
 }
-
-
-
