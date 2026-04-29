@@ -17,7 +17,6 @@
 // }
 
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -38,5 +37,6 @@ int main(){
     }
     cout<<smallestElement(arr,n);
     cout<<endl;
+    return 0;
 
 }
