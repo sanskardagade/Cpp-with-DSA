@@ -9,3 +9,11 @@
 //     .then(() => {})
 //     .catch(() => {})
 //     .finally(() => {})
+
+const p1 = {
+    lname:"Sanskar",
+    getFullName(){
+        return `
+        `
+    }
+}
