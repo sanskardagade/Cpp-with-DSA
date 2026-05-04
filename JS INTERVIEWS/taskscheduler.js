@@ -85,14 +85,12 @@ class TaskScheduler{
 const scheduler = new TaskScheduler(10);
 
 function saveToDB(message){
-    return new Promise(
-        (res,rej) =>
-            setTimeout(() => {
-                console.log(`Message ${message} saved to DB!!`)
-                res();
-            }),
-            2*1000
-    )
+    return new Promise((res, rej) =>
+        setTimeout(() => {
+            console.log(`Message ${message} saved to DB!!`);
+            res();
+        }, 2 * 1000) 
+    );
 }
 
 function chat(){
@@ -103,3 +101,5 @@ function chat(){
         scheduler.addTask(() => saveToDB(message))
     })
 }
+
+chat()
