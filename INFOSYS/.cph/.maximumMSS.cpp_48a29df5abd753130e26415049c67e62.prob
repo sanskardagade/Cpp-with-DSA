@@ -1,0 +1,1 @@
+{"name":"Local: maximumMSS","url":"c:\\Users\\admin\\Desktop\\Cpp-with-DSA\\INFOSYS\\maximumMSS.cpp","tests":[{"id":1778118895228,"input":"3\n1\n1\n-5\n2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Desktop\\Cpp-with-DSA\\INFOSYS\\maximumMSS.cpp","group":"local","local":true}
