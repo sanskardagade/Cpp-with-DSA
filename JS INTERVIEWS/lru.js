@@ -5,7 +5,6 @@ class LRUCache {
         this.head = null;
         this.tail = null;
     }
-
     #removeNode(node) {
         if (node.prev) node.prev.next = node.next;
         if (node.next) node.next.prev = node.prev;
