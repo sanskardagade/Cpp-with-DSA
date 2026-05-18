@@ -3,9 +3,7 @@ using namespace std;
 
 class Solution {
 public:
-
     int maximumMSS(vector<int>& a, int k) {
-
         int n = a.size();
         int ans = INT_MIN;
 
