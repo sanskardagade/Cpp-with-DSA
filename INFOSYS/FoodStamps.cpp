@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution {
 public:
     long long maxTastePoints(int n, int m, vector<int>& v, vector<int>& d) {
@@ -17,7 +16,6 @@ public:
 
             auto top = pq.top();
             pq.pop();
-
             long long taste = top.first;
             int idx = top.second;
 
