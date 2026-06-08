@@ -11,7 +11,6 @@ public:
         }
 
         long long ans = 0;
-
         while(m-- && !pq.empty()) {
 
             auto top = pq.top();
