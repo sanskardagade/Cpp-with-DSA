@@ -1,6 +1,5 @@
 type Resolve<T> = (value: T | MyPromise<T>) => void;
 type Reject = (reason: any) => void;
-
 enum State {
   PENDING = "pending",
   FULFILLED = "fulfilled",
