@@ -4,7 +4,6 @@ class Solution {
 public:
     long long maxTastePoints(int n, int m, vector<int>& v, vector<int>& d) {
         priority_queue<pair<long long,int>> pq;
-
         // push initial values
         for(int i = 0; i < n; i++) {
             pq.push({v[i], i});
