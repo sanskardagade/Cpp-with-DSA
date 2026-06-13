@@ -8,8 +8,6 @@ public:
         for(int i = 0; i < n; i++) {
             pq.push({v[i], i});
         }
-
-        
         long long ans = 0;
         while(m-- && !pq.empty()) {
 
