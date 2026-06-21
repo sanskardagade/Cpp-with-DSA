@@ -58,6 +58,5 @@ int main() {
 
     // cout << "Maximum Taste Points: " << result << endl;
     cout << result << endl;
-
     return 0;
 }
