@@ -39,7 +39,6 @@ int main() {
     cin >> n >> m;
 
     vector<int> v(n), d(n);
-
     // Input initial taste values
     // cout << "Enter taste values: ";
     for(int i = 0; i < n; i++) {
